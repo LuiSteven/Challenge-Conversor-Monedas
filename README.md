@@ -70,8 +70,8 @@ Java: Lenguaje de programación principal del proyecto.
 API REST: Para obtener las tasas de cambio de monedas.
 IntelliJ IDEA: IDE utilizado para el desarrollo del proyecto.
 Personas Contribuyentes
-Nombre del Contribuyente 1
-Nombre del Contribuyente 2
+Steven Ortega
+
 ## Personas Desarrolladores del Proyecto
 Steven Ortega
 Ing. Sistemas
