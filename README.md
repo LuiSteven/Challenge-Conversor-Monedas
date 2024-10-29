@@ -61,7 +61,7 @@ El valor 100.00 [USD] corresponde al valor final de => 14625.00 [ARS]
 ## Acceso al proyecto
 Para acceder al proyecto, clona el repositorio en tu entorno local:
 
-git clone ``` https://github.com/tuusuario/conversor-de-monedas.git ```
+git clone ``` https://github.com/LuiSteven/Challenge-Conversor-Monedas.git ```
 
 Luego, compila y ejecuta el archivo Principal.java para iniciar el programa.
 
