@@ -23,8 +23,8 @@ public class Principal {
             System.out.print("Elija una opción: ");
             op = tec.nextInt();
 
-            String monedaBase = "";
-            String monedaObjetivo = "";
+            String monedaBase;
+            String monedaObjetivo;
 
             switch (op) {
                 case 1:
