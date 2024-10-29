@@ -3,7 +3,7 @@
 
 <h1 align="center"> Challenge Conversor de Monedas </h1>
 
-##Descripción
+## Descripción
 
 Este programa permite realizar la función de conversor de monedas consumiendo una API y utilizando tecnologias como: JAVA, Gson, HTTPrequest.
 
