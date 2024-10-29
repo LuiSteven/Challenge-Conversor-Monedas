@@ -6,7 +6,7 @@ public class Principal {
         ConsultaMonedas consultar = new ConsultaMonedas();
 
         int op = 0;
-        double monto = 0;
+        double monto;
 
         while(op != 7){
             System.out.println("*******************************************");
