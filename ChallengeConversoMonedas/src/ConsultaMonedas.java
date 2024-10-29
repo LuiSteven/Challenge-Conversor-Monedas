@@ -9,7 +9,6 @@ public class ConsultaMonedas {
 
     private static final String API_URL = "https://v6.exchangerate-api.com/v6/ae0b385d976cd3d951e0cede/latest/";
 
-    // Método para obtener las tasas de conversión de una moneda base
     public Moneda buscarMoneda(String baseCode) {
         URI uri = URI.create(API_URL + baseCode);
         HttpClient client = HttpClient.newHttpClient();
@@ -23,7 +22,6 @@ public class ConsultaMonedas {
         }
     }
 
-    // Método para convertir de una moneda base a una moneda objetivo
     public double convertir(String baseCode, String targetCode, double amount) {
         Moneda moneda = buscarMoneda(baseCode);
         Map<String, Double> conversionRates = moneda.conversion_rates();
